@@ -118,7 +118,7 @@ body {
 
 .hero .content {
   text-align: right;
-  left: 45%;
+  left: 50%;
   padding: 1.4rem 7%;
   max-width: 60rem;
   position: absolute;
@@ -431,5 +431,10 @@ footer .credit {
   footer .credit {
     font-size: 2rem;
   }
-  
+  .hero .content {
+    text-align: right;
+    left: 20%;
+    padding: 1.4rem 7%;
+    max-width: 60rem;
+    position: absolute;
 }
