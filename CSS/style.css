@@ -209,10 +209,9 @@ body {
 
 /*Menu Section */
 .Menu h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
-.Menu p,
-.contact p {
+.Menu p {
   text-align: center;
   max-width: 30rem;
   margin: auto;
@@ -230,25 +229,51 @@ body {
 
 .Menu .row .menu-cart {
   text-align: center;
+  padding-bottom: 4rem;
 }
 
 .Menu .row .menu-cart img {
-  margin: 0.5rem;
   border-radius: 50%;
-  width: 40%;
+  width: 50%;
+  margin: auto;
+}
+.Menu .row .menu-cart .ig i {
+  color: #fff;
+  margin: 0.5rem;
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
 }
 
 .Menu .row .menu-cart .menu-cart-tittle {
   margin: 0.5rem auto 1rem;
 }
 .Menu .row .menu-cart .menu-cart-price {
-  margin-bottom: 3rem;
+  margin-top: -1rem;
+}
+
+/* Table section */
+.table {
+  border: 5px;
+  border-collapse: collapse;
+  border-color: white;
+  color: #fff;
 }
 
 /* Contact Section */
 .contact {
   padding: 9.7rem 7% 1.4rem;
 }
+
+.contact p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
 .contact .row {
   display: flex;
   margin-top: 2rem;
@@ -446,3 +471,4 @@ footer .credit {
     position: absolute;
   }
 }
+
