@@ -397,6 +397,13 @@ footer .credit a {
   .About .row .content {
     font-size: 1.6rem;
   }
+  .hero .content {
+    text-align: right;
+    left: 20%;
+    padding: 1.4rem 7%;
+    max-width: 60rem;
+    position: absolute;
+  }
 }
 .Menu p {
   font-size: large;
@@ -437,4 +444,5 @@ footer .credit {
     padding: 1.4rem 7%;
     max-width: 60rem;
     position: absolute;
+  }
 }
